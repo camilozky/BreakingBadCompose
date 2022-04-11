@@ -1,7 +1,7 @@
 package com.example.breakingbadcompose.domain.repository
 
-import com.example.breakingbadcompose.domain.model.Character
+import com.example.breakingbadcompose.domain.model.Characters
 
 interface CharacterRepository {
-    fun getCharacters(): List<Character>
+    suspend fun getCharacters(): List<Characters>
 }

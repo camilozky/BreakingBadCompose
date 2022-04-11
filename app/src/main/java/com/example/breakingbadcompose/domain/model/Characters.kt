@@ -1,6 +1,6 @@
 package com.example.breakingbadcompose.domain.model
 
-data class Character(
+data class Characters(
     val char_id: Int,
     val name: String,
     val img: String,
